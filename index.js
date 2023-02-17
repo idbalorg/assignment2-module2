@@ -72,10 +72,25 @@ subjectsToBeTaken(scienceSubject);
 
 //ANSWER
 
-let num = 40;
-let pwr = 1;
-while (pwr <= num/2) {
-  pwr *= 2;
-}
+// let num = 40;
+// let pwr = 1;
+// while (pwr <= num/2) {
+//   pwr *= 2;
+// }
 
-console.log("The number " + pwr + " is the power of 2 nearest to " + num +".");
+// console.log("The number " + pwr + " is the power of 2 nearest to " + num +".");
+
+let i = 1;
+let num = 40;
+let powerFormular = 2**i;
+let pwr = 0;
+
+while (i < num/2 ){
+    i++;
+    pwr += powerFormular
+    if (powerFormular > num){
+        break;
+    }
+  
+}
+console.log("The number " + pwr + " is the power of 2 nearest to " + num +"."); 
