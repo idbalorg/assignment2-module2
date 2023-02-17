@@ -25,7 +25,7 @@ console.log(add(num1, num2))
 let accountBalance = 50
 let cashBalance = 70
 let priceOfCommodity = 100
-// comparison operator 1             Logical Operator
+// comparison operator 1          Logical Operator1     comparison operator 2   
 if (accountBalance < priceOfCommodity || cashBalance < priceOfCommodity){
     console.log(" Your account balance is " + accountBalance + ", it's not sufficient for this transaction");
     let balance = priceOfCommodity - accountBalance;
