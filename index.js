@@ -82,13 +82,13 @@ subjectsToBeTaken(scienceSubject);
 
 let i = 1;
 let num = 40;
-let powerFormular = 2**i;
-let pwr = 0;
 
-while (i < num/2 ){
+
+
+while (i < num/2){
     i++;
-    pwr += powerFormular
-    if (powerFormular > num){
+    let pwr = 2**i;
+    if (pwr > num){
         break;
     }
   
